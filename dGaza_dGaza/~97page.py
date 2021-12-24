@@ -27,8 +27,8 @@ mf = list(map(lambda x: x+10, [1,2,3]))
     #그러나 리스트 컴프리헨션이 더 유용한 파이썬의 대표적인 특징이다.
     #다음은 홀수인 경우 2를 곱해 출력하라는 리스트 컴프리헨션이다
 
-# print([n*2 for n in range(1, 10+1) if n%2 ==1])
-# print("\n\n")
+print([n*2 for n in range(1, 10+1) if n%2 ==1])
+print("\n\n")
     #리스트 컴프리헨션은 딕셔너리도 가능하다.
 # a = {}
 # for key, value in original.items():
